@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+form button,
+.contact-methods h2{
+    padding: 15px 0;
+    background-color: rgba(247, 243, 3, 0.479  );
+    font-family: "Bungee", cursive;
+    font-weight: normal;
+}
+
+body,
+input,
+textarea{
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color:rgb(245, 245, 199) ;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 18px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+header h1 {
+    margin-left: 18px;
+}
+
+.container,
+#categories{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#categories{
+    margin-left: 62px;
+}
+
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.store-front{
+    width: 400px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+.linha-imagens img{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 16px;
+    left: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+
+section .container{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 180px;
+}
+section p {
+    margin-right: 200px;
+    margin-left: 25px;
+}
+
+.container p{
+    margin-right: 10px ;
+    margin-left: 50px;
+}
+
+
+.logo h2{
+    margin-left: 40px;
+    margin-right: 200px;
+    background-color: rgba(247, 243, 3, 0.479  );
+}
+
+.logo p{
+    margin-right: 200px;
+}
+
+.cat h2{
+    margin-top: 40px;
+    margin-left: 118px;
+    margin-right: 55px;
+    background-color: rgba(247, 243, 3, 0.479  );
+}
+
+.cat-B,
+.cat-A,
+.cat-C,
+.cat-D,
+.cat-E{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+
+.cat-B img,
+.cat-A img,
+.cat-C img,
+.cat-D img,
+.cat-E img{
+    width: 100px;
+}
+
+.social-links img{
+    height: 24px;
+}
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact .container{
+    display: block;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: rgba(247, 243, 3, 0.635);
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgba(112, 110, 5, 0.324);
+}
+
+input:focus, 
+textarea:focus{
+    outline-color: gold;
+}
+
+.margin {
+    margin-left: 100px;
+}
+
+#contact h2 {
+    background-color: rgba(247, 243, 3, 0.479  );
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+
+.margin h3 {
+    margin-top: 40px;
+}
+
+.nos-acompanhe,
+.endereço{
+    margin-top: 38px;
+}
+
+.endereço h3{
+    margin-left: 25px;
+}
+
+footer {
+    background-color:rgba(247, 243, 3, 0.479  ) ;
+    padding: 16px;
+}
